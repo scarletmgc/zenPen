@@ -97,8 +97,8 @@ p.list-detalle {
     align-items: center;
 }
 .listNossoApp h6 {
-    text-align: center;
-    width: 100%;
+    /* text-align: center; */
+    /* width: 100%; */
 }
 
 .nossoApp-content-text h3{
