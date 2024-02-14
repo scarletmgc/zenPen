@@ -19,8 +19,10 @@ button.btn {
 
 .primera-linea {
     width: 90%;
-    
+}
 p.lead.texto {
+    @include font-size(4rem);
+
 }
 
 #amarillo{
