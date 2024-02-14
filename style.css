@@ -1,0 +1,196 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+nav a{
+    font-size:2em !important;
+    font-family: "Open Sans", sans-serif !important;
+    color: #323232 !important;
+}
+
+button.btn {
+    background: #fbbc05;
+    color: white;
+}
+
+.ilustration-hero{
+    max-width: 90%;
+    height: auto;
+}
+
+.primera-linea {
+    width: 90%;
+    
+p.lead.texto {
+}
+
+#amarillo{
+    color: #FBBC05 !important;
+    width: 90%;
+}
+
+.card-alimentacion{
+    width: 299px;
+    height: 231px;
+    border-radius: 2%;
+    box-shadow: 3px 8px 5px 0px rgba(0,0,0,0.2);
+    /*
+        -webkit-box-shadow: 3px 8px 5px 0px rgba(0,0,0,0.2);
+        -moz-box-shadow: 3px 2px 0px 5px rgba(0,0,0,0.2;
+    */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: center;
+}
+
+
+.card-alimentacion img {
+    width: 25%;
+    margin-bottom: 16px;
+}
+
+.card-alimentacion p,h5 {
+    width: 75%;
+    margin: auto;
+    /* justify-content: center; */
+    /* text-align: center; */
+    /* padding-bottom: 8px; */
+    /* font-size: 1.5em; */
+}
+div#sobre {
+    width: 100%;
+    height: 204px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+section#alimentacion-content-cards {margin-bottom: 44px;}
+
+section#nossoApp-content {
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 56px;
+}
+
+#nossoApp-content img {
+    width: 100%;
+}
+
+#app-content img{
+    width: 100%;
+}
+#app-content img {
+    width: 100%;
+    margin-bottom: 16px;
+}
+p.list-detalle {
+    
+    color: #a2a3a3;
+    text-align: left;
+}
+.col.nossoApp-content-text {
+    margin: auto;
+}
+.listNossoApp {
+    margin: auto;
+    align-items: center;
+}
+.listNossoApp h6 {
+    text-align: center;
+    width: 100%;
+}
+
+.nossoApp-content-text h3{
+    text-align: center;
+}
+.headCard {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    /* flex-wrap: wrap; */
+    /* height: 200px; */
+    width: 100%;
+    margin: 16px 8px;
+}
+
+img.avatar {
+    width: 80px;
+}
+
+img.paw {
+    width: 32PX;
+}
+.card-testimonio {
+    width: 330px;
+}
+.card-testimonio{
+    width: 351PX;
+    justify-content: center;
+    align-items: CENTER;
+    text-align: center;
+    border: solid #323232 2px;
+    border-radius: 30px;
+    padding: 16px;
+}
+
+.card-alimentacion hr{
+    color: #323232 !important;
+    width: 80% !important;
+}
+
+.card-testimonio {
+    width: 300px !important;
+    box-shadow: 0px 5px 0px 0px rgba(50,50,50,0.9);
+}
+
+.headCardTittle {
+    height: 56px;
+}
+span.numList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    background: rgb(251 188 5 / 20%);
+    border-radius: 5px;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+    /* display: flex; */
+}
+
+li {
+    display: flex;
+}
+footer img {
+    width: 80px;
+}
+
+@media  screen and (min-width: 320px) (max-width: 500px){
+   .primera-linea {
+       width:90%;
+       text-align:center;
+       background:red;
+    }
+    .card-alimentacion {
+        /*width: 409px !important;*/
+        height: 314px;
+        background: red;
+        border-radius: 2%;
+        box-shadow: 3px 8px 5px 0px rgba(0,0,0,0.2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: center;
+        text-align: center;
+    }
+  }
