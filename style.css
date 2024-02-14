@@ -31,15 +31,12 @@ p.lead.texto {
 }
 
 .card-alimentacion{
-    width: 299px;
-    height: 231px;
-    border-radius: 2%;
+    margin: 8px 0px;
+    width: 95%;
+    padding: 16px 0px;
+    border-radius:  2% 0px;
     box-shadow: 3px 8px 5px 0px rgba(0,0,0,0.2);
-    /*
-        -webkit-box-shadow: 3px 8px 5px 0px rgba(0,0,0,0.2);
-        -moz-box-shadow: 3px 2px 0px 5px rgba(0,0,0,0.2;
-    */
-    display: flex;
+    
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -56,11 +53,8 @@ p.lead.texto {
 .card-alimentacion p,h5 {
     width: 75%;
     margin: auto;
-    /* justify-content: center; */
-    /* text-align: center; */
-    /* padding-bottom: 8px; */
-    /* font-size: 1.5em; */
 }
+
 div#sobre {
     width: 100%;
     height: 204px;
@@ -180,19 +174,11 @@ footer img {
    .primera-linea {
        width:90%;
        text-align:center;
-       background:red;
     }
-    .card-alimentacion {
-        /*width: 409px !important;*/
-        height: 314px;
-        background: red;
-        border-radius: 2%;
-        box-shadow: 3px 8px 5px 0px rgba(0,0,0,0.2);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-        align-content: center;
-        text-align: center;
+    
+    #amarillo{
+        color: #FBBC05 !important;
+        width: 90%;
     }
-  }
+  
+}
