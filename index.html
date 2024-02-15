@@ -13,10 +13,10 @@
     <!--<main>-->
       <div class="container">
         <header>
-          <nav class="navbar navbar-expand-lg justify-content-center">
-              <div class="container-lg">
+          <nav class="navbar navbar-expand-lg justify-content-center fixed-top bg-body">
+              <div class="container-lg ">
                   <a class="navbar-brand" href="#">
-                      <img src="images/Logo.png" alt="PetZen" width="216" >
+                      <img src="images/Logo.png" alt="PetZen" width="174" >
                   </a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
@@ -37,7 +37,7 @@
                           <a href="#app-content" class="nav-link active" >Nosso App</a>
                         </li>
                         <li class="nav-item nav-pills nav-fill">
-                          <a class="nav-link active btn " aria-current="page" href="#usuarios">Acessar</a>
+                          <button type="button" class="btn rounded-pill btn-lg px-4 me-md-2">Acessar</button>
                         </li>
                       </ul>
                       <!--<form class="d-flex" role="search">
@@ -50,8 +50,9 @@
         </header>
         <!--------------------------------------------------Hero--------------------------------------------------->
         <!--<div class="col-xl-12 px-4 py-5 justify-content-md-start">-->
+          <section class="hero" id="hero">
           <div class="row "><!--flex-lg-row-reverse align-items-center-->          
-            <div class="col-lg-6 col-md-12 col-xs-12 ">
+            <div class="col-lg-6 col-md-12 col-xs-12 mt-4">
               <h1 class="fw-bold text-body-emphasis mb-3 primera-linea text-wrap fs-1">O melhor suporte no cuidado para seu</h1>
               <h1 id="amarillo text-wrap" class="amarillo text-wrap">melhor amigo</h1>
               <p class="lead texto text-wrap">Aqui, você encontrará respostas para todas as suas dúvidas, desde a escolha da melhor ração até dicas essenciais para garantir o bem-estar do seu companheiro peludo. </p>
@@ -59,10 +60,11 @@
                 <button type="button" class="btn btn-lg rounded-pill text-wrap">Acessar</button>
               </div>
             </div>
-            <div class="col-lg-6 col-md-12 col-xs-12 ">
+            <div class="col-lg-6 col-md-12 col-xs-12 mt-4">
               <img src="images/ilustration-hero.png" class="ilustration-hero" alt="ilustration-hero" >
             </div>
           </div>
+        </section>
         <!--</div>-->
         <!---------------------------------------------------Alimentacion------------------------------------------>
         <section id="alimentacion-content-cards" >
@@ -269,7 +271,7 @@
             </div>
           </div>
       
-          <div class="d-flex justify-content-between py-4 my-4 border-top">
+          <div class="d-flex justify-content-center py-2 border-top">
             <p>© 2021 Company, Inc. All rights reserved.</p>
           </div>
         </footer>
